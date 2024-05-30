@@ -5,6 +5,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import { usePathname } from "next/navigation";
 import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+
 const navItems = [
   {
     link: "/screens/about",
@@ -83,7 +84,12 @@ function Navbar() {
           className="absolute top-20 right-0 w-full bg-white flex flex-col items-center space-y-4 py-4 shadow-md md:hidden"
         >
           {navItems.map((item) => (
-            <NavItems key={item.link} link={item.link} name={item.name} />
+            <NavItems
+              key={item.link}
+              link={item.link}
+              name={item.name}
+              setIsOpen={setIsOpen}
+            />
           ))}
           <div className="flex md:hidden justify-between mt-2 space-x-4">
             <a
@@ -121,9 +127,13 @@ function Navbar() {
   );
 }
 
-const NavItems = ({ link, name }) => {
+const NavItems = ({ link, name, setIsOpen }) => {
   const pathname = usePathname();
   const isActive = pathname.startsWith(link);
+
+  const handleLinkClick = () => {
+    setIsOpen(false);
+  };
 
   return (
     <Link
@@ -133,6 +143,7 @@ const NavItems = ({ link, name }) => {
           ? "text-blue-500 underline underline-offset-2"
           : "text-gray-900"
       }`}
+      onClick={handleLinkClick}
     >
       <div className="md:text-xl text-lg font-figtree">{name}</div>
     </Link>

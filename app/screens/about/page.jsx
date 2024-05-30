@@ -10,7 +10,7 @@ export default function Page() {
         <div className="w-full md:w-2/5 h-1/3 md:h-full bg-customDark"></div>
         <div className="w-full md:w-3/5 h-2/3 md:h-full bg-white"></div>
       </div>
-      <div className="relative flex items-center justify-center min-h-screen md:pt-20 pt-32">
+      <div className="relative flex items-center justify-center min-h-screen md:pt-20 pt-32 ">
         <div className="flex flex-col md:flex-row items-center text-center rounded-lg space-y-4 md:space-y-0 md:space-x-6">
           <div className="shadow-lg">
             <div className="flex flex-col justify-center px-20 py-10 bg-customLightGray items-center">
