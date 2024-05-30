@@ -5,7 +5,7 @@ import { FaLinkedinIn, FaGithub, FaInstagram } from "react-icons/fa";
 
 export default function Page() {
   return (
-    <div className="relative flex items-center justify-center min-h-screen w-full pb-8 md:px-0 px-8">
+    <div className="relative flex items-center justify-center min-h-screen w-full pb-8 md:px-0 px-24">
       <div className="flex flex-col md:flex-row absolute inset-0">
         <div className="w-full md:w-2/5 h-1/3 md:h-full bg-customDark"></div>
         <div className="w-full md:w-3/5 h-2/3 md:h-full bg-white"></div>
