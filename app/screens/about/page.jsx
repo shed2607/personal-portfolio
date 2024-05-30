@@ -5,7 +5,7 @@ import { FaLinkedinIn, FaGithub, FaInstagram } from "react-icons/fa";
 
 export default function Page() {
   return (
-    <div className="relative flex items-center justify-center min-h-screen bg-customLightGray w-full">
+    <div className="relative flex items-center justify-center min-h-screen bg-customLightGray md:w-full">
       <div className="flex flex-col md:flex-row absolute inset-0">
         <div className="w-full md:w-2/5 h-1/3 md:h-full bg-customDark"></div>
         <div className="w-full md:w-3/5 h-2/3 md:h-full bg-white"></div>
@@ -64,7 +64,7 @@ export default function Page() {
           </div>
           <div className="p-4 max-w-xl text-left">
             <h1 className="text-9xl font-bold font-grifter text-gray-900">
-              Hello<span className="font-mono">!</span>
+              Hello!
             </h1>
             <div className="flex justify-start space-x-4 md:px-0 px-4">
               <Link href="/screens/resume">

@@ -34,7 +34,7 @@ export default function RootLayout({ children }) {
         <nav className="fixed w-full bg-white z-10">
           <Navbar />
         </nav>
-        <main>{children}</main>
+        <main className="w-full overflow-x-hidden">{children}</main>
         <footer>
           <Footer />
         </footer>
