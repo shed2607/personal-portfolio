@@ -106,7 +106,7 @@ export default function Page() {
           </div>
           <div className="flex justify-between w-full items-center">
             <h1 className="text-2xl font-grifter">Experience</h1>
-            <a href="/Professional_resume.pdf" download>
+            <a href="/professional_resume.pdf" download>
               <button className="text-black border-b-2 md:border-2 px-8 py-2 md:rounded-full text-sm md:text-lg">
                 Download CV
               </button>
