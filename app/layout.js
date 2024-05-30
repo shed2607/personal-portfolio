@@ -34,7 +34,7 @@ export default function RootLayout({ children }) {
         <nav className="fixed w-full bg-white z-10">
           <Navbar />
         </nav>
-        <main className="flex">{children}</main>
+        <main>{children}</main>
         <footer>
           <Footer />
         </footer>
