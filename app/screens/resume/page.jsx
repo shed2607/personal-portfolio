@@ -106,6 +106,7 @@ const toolsAndTechnologies = [
   "Postman",
   "VSCode",
   "WIX",
+  "Wordpress",
 ];
 export default function Page() {
   return (
@@ -159,11 +160,7 @@ export default function Page() {
             />
           ))}
         </div>
-        <div className="mt-8">
-          <div className="flex justify-between w-full items-center">
-            <h1 className="text-2xl font-grifter">Education</h1>
-          </div>
-        </div>
+        <div className="mt-8"></div>
         <div className="mt-6 flex flex-col justify-center items-center w-full h-full">
           <SkillsAndTechnologies
             programmingLanguages={programmingLanguages}

@@ -60,7 +60,7 @@ export function SkillsAndTechnologies({
   toolsAndTechnologies,
 }) {
   return (
-    <div className="flex flex-col bg-white p-8 mb-8 shadow-md w-full">
+    <div className="flex flex-col bg-white p-8 mb-8 rounded-xl shadow-md w-full">
       <div className="mb-8">
         <h1 className="font-bold text-2xl mb-4">Programming Languages</h1>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
