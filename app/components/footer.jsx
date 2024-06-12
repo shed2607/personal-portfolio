@@ -22,7 +22,7 @@ const Footer = () => {
         </div>
         <div className="mx-4 text-center">
           <p className="text-xl font-normal font-figtree text-gray-700">
-            Follow
+            Social
           </p>
           <div className="flex justify-center md:justify-between mt-2 space-x-4">
             <a

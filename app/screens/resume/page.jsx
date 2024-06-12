@@ -4,8 +4,23 @@ const experiences = [
   {
     start: "Jan 2023",
     end: "To Date",
-    first: "IT Consultant",
+    first: "Full-stack Developer",
     second: "Cozsa Technologies",
+    third: "Ibadan, Nigeria",
+    desc: [
+      "Developed software solutions to streamline operations for various industries including hospitality and retail.",
+      "Collaborated with clients to understand and implement their specific needs, ensuring the software met their operational requirements.",
+      "Facilitated the integration of secure data management practices and real-time updates.",
+      "Worked meticulously to translate design specifications into functional and user-friendly systems.",
+      "Ensured a smooth user experience through thorough testing and iterative feedback sessions with clients.",
+    ],
+  },
+
+  {
+    start: "Nov 2023",
+    end: "To Date",
+    first: "IT Consultant",
+    second: "Freng Café and Bar",
     third: "Ibadan, Nigeria",
     desc: [
       "Boosted client satisfaction with timely troubleshooting.",
@@ -18,17 +33,16 @@ const experiences = [
   {
     start: "Mar 2023",
     end: "Sep 2023",
-    first: "Full-stack Mobile Developer",
+    first: "Mobile Developer",
     second: "Epsilon Development Labs",
+    type: "(freelance)",
     third: "Lagos, Nigeria",
     desc: [
-      "Developed solutions for complex client needs.",
-      "Enhanced security for user data compliance.",
-      "Adopted agile methods for faster project completion.",
-      "Launched mobile apps, boosting client revenue.",
-      "Integrated APIs for seamless user experiences.",
-      "Worked with designers for consistent prototypes.",
-      "Reported progress to stakeholders regularly.",
+      "Developed a mobile app to help monitor and manage trades, providing automated trading insights and real-time market data.",
+      "Collaborated closely with the client and their team to understand and implement their requirements, ensuring the app met their needs.",
+      "Facilitated the integration of real-time data for live market updates and trade execution.",
+      "Worked meticulously to translate design specifications into a functional and visually appealing application.",
+      "Ensured a smooth user experience through thorough testing and iterative feedback sessions with the client.",
     ],
   },
   {
@@ -107,7 +121,7 @@ export default function Page() {
           <div className="flex justify-between w-full items-center">
             <h1 className="text-2xl font-grifter">Experience</h1>
             <a href="/professional_resume.pdf" download>
-              <button className="text-black border-b-2 md:border-2 px-8 py-2 md:rounded-full text-sm md:text-lg">
+              <button className="text-black border-b-2 md:border-2 px-8 py-2 md:rounded-xl text-sm md:text-lg">
                 Download CV
               </button>
             </a>
@@ -121,6 +135,7 @@ export default function Page() {
               end={experience.end}
               first={experience.first}
               second={experience.second}
+              type={experience.type}
               third={experience.third}
               desc={experience.desc}
             />

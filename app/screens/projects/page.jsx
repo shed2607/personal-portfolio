@@ -11,48 +11,68 @@ const projects = [
   {
     title: "Notes App",
     role: "Full-stack Developer",
+    type: "Personal",
+    who: "Me",
     description:
       "Developed a Notes App focused on enhancing productivity. Implemented JWT authentication for securing API endpoints and integrated MongoDB for managing scalable blog data. Designed intuitive CRUD operations and real-time updates for user interactions. The responsive frontend was built with React Native, while the backend was powered by Node.js/Express and MongoDB, offering a robust and efficient tech stack.",
     imageUrl: img4,
     date: "January 2024",
+    link: "https://github.com/shed2607/Note-Api",
+    linkf: "github",
   },
   {
     title: "Maintenance Report API",
     role: "Backend Developer",
+    type: "Personal",
+    who: "Me",
     description:
       "Created a Maintenance Report API to streamline reporting processes. Secured endpoints with JWT authentication and managed data using MongoDB. Designed streamlined CRUD operations and incorporated real-time notifications. Built with Node.js/Express and supported by MongoDB, this project aimed at ensuring smooth interaction and scalability.",
     imageUrl: img1,
     date: "April 2024",
+    link: "https://github.com/shed2607/SDP-backend",
+    linkf: "github",
   },
   {
     title: "Blog API",
     role: "Backend Developer",
+    type: "Personal",
+    who: "Me",
     description:
       "Developed a Blog API to support digital storytelling. Enhanced security with JWT authentication and implemented MongoDB for scalability. Designed efficient CRUD operations to improve user experience. Powered by Node.js/Express and MongoDB, this project enabled real-time interactions and fostered community engagement.",
     imageUrl: img2,
     date: "December 2023",
+    link: "https://github.com/shed2607/my-blog-backend",
+    linkf: "github",
   },
   {
     title: "Restaurant Menu App",
     role: "Backend Developer",
+    type: "Personal",
+    who: "Me",
     description:
       "Built a Restaurant Menu App to enhance the dining experience with real-time updates via Firebase. Developed a user-friendly interface to navigate through menu options. Utilized Flutter for the frontend and Firebase for the backend, blending taste and technology seamlessly.",
     imageUrl: img3,
     date: "October 2023",
+    link: "https://github.com/shed2607/Resturant-And-Bar-Menu-App",
+    linkf: "github",
   },
   {
     title: "Dantis AI",
     role: "Frontend Developer",
+    type: "Freelance",
+    who: "Epsilon Development Labs",
     description:
-      "Created an AI Trading Bot for automated trading insights. The bot provided intelligent market analysis and executed trades based on complex algorithms. Developed a frontend with React Native to ensure cross-platform compatibility, focusing on seamless user interaction while backend algorithms handled core functionality.",
+      "Developed an AI Trading Bot for Epsilon Development Labs. This project provided automated trading insights, offering intelligent market analysis and executing trades based on complex algorithms. Created a frontend with React Native to ensure cross-platform compatibility, focusing on seamless user interaction. The client was very satisfied with the outcome, praising the bot's efficiency and user-friendly interface.",
     imageUrl: img5,
     date: "September 2023",
   },
   {
     title: "Bar Management App",
     role: "Full Stack Developer",
+    type: "Freelance",
+    who: "Cozsa Technologies",
     description:
-      "Developed a Bar Management App to streamline bar operations including inventory management, sales tracking, and customer trend analysis. Implemented JWT authentication for securing API endpoints and integrated MongoDB for scalable data management. Created intuitive CRUD operations and real-time updates for user engagement. Built a responsive frontend with React for web, leveraging the MERN stack (MongoDB, Express.js, React, Node.js) for a robust solution.",
+      "Created a Bar Management App for Cozsa Technologies to streamline bar operations, including inventory management, sales tracking, and customer trend analysis. Implemented JWT authentication for securing API endpoints and integrated MongoDB for scalable data management. Developed intuitive CRUD operations and real-time updates for user engagement. The client expressed high satisfaction with the app's functionality and user experience, highlighting its impact on their operational efficiency.",
     imageUrl: img6,
     date: "May 2024",
   },
@@ -86,6 +106,10 @@ export default function Page() {
               description={project.description}
               imageUrl={project.imageUrl}
               date={project.date}
+              type={project.type}
+              who={project.who}
+              link={project.link}
+              linkf={project.linkf}
             />
           ))}
         </div>
