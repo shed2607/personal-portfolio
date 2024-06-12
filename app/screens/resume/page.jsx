@@ -20,7 +20,7 @@ const experiences = [
     start: "Nov 2023",
     end: "To Date",
     first: "IT Consultant",
-    second: "Freng Café and Bar",
+    second: "Freng Concerns",
     third: "Ibadan, Nigeria",
     desc: [
       "Boosted client satisfaction with timely troubleshooting.",
