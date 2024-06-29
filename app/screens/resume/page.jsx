@@ -95,8 +95,8 @@ const frameworks = [
   "PostgreSQL",
   "MySQL",
   "MongoDB",
-  "NESTJS",
-  "PRISMA",
+  "NestJS",
+  "Prisma",
 ];
 
 const toolsAndTechnologies = [
