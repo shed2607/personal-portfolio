@@ -16,9 +16,12 @@ const Footer = () => {
           <p className="text-xl font-normal font-figtree text-gray-700">
             Email
           </p>
-          <p className="text-xs font-light mt-2 font-figtree text-gray-700">
+          <a
+            className="text-xs font-light mt-2 font-figtree text-gray-700"
+            href="mailto:oluwaseun.gozie26@gmail.com"
+          >
             oluwaseun.gozie26@gmail.com
-          </p>
+          </a>
         </div>
         <div className="mx-4 text-center">
           <p className="text-xl font-normal font-figtree text-gray-700">

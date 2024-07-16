@@ -101,14 +101,13 @@ const frameworks = [
 
 const toolsAndTechnologies = [
   "GIT",
+  "GitHub",
   "Firebase",
   "Redux",
   "Vercel",
   "Render",
   "Postman",
   "VSCode",
-  "WIX",
-  "Wordpress",
 ];
 export default function Page() {
   return (
