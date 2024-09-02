@@ -9,7 +9,7 @@ import { ProjectCard } from "@/app/components/card";
 
 const projects = [
   {
-    title: "Notes App",
+    title: "Notes Api",
     role: "Full-stack Developer",
     type: "Personal",
     who: "Me",
