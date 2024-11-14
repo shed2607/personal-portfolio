@@ -31,7 +31,7 @@ const Footer = () => {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://www.linkedin.com/in/oluwaseun-adeniyi-634343188/"
+              href="https://www.linkedin.com/in/oluwaseun-gozie/"
             >
               <FaLinkedin />
             </a>
